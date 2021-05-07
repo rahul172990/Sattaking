@@ -1,0 +1,48 @@
+.signin-div-style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.forget-password-style {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.forget-password-text-style:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.input-style {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.auth-btn-style {
+  background-color: black;
+  margin-top: 30px;
+  outline: none;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.auth-btn-style:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+.btn-text-style {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
